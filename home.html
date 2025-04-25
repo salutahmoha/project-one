@@ -6,6 +6,58 @@
     <title>Document</title>
 </head>
 <body>
-    <p>This is my home page </p>
+    <form action="">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" placeholder="Enter your firstname"><br>
+        
+        <label for="phonenumber">Phone Number</label>
+        <input type="number" id="phonenumber" placeholder="Enter your phone number"><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password"><br>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter your email"><br>
+
+        <label for="">Date of Birth</label>
+        <input type="date"><br>
+
+        <label for="gender"></label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br>
+
+        <!-- checkbox -->
+        <div class="checkbox">
+            <input type="checkbox">
+            <label for="">I accept the terms and conditions</label><br>
+
+            <input type="checkbox">
+            <label for="">I want to receive emails</label><br>
+
+            <input type="checkbox">
+            <label for="">I want to receive newsletters</label><br>
+        </div>
+
+        <!-- radio button -->
+        <div class="radio">
+            <label for="">Are you a student</label>
+            <label for="Yes"><input type="radio" name="student">Yes</label>
+
+            <label for="No"><input type="radio" name="student">No</label>
+        </div>
+
+        <div class="radio1">
+            <label for="">Do you have a kid?</label>
+            <label for="yes"><input type="radio" name="kid">Yes</label>
+            <label for="no"><input type="radio" name="kid">No</label>
+        </div>
+
+        <label for="message">Enter your description</label>
+        <textarea name="message" id="message" cols="80" rows="7"></textarea><br>
+        <button type="submit">Submit</button>
+        
+    </form>
 </body>
 </html>
